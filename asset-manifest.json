@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dylan-portfolio/static/css/main.d22f8f23.css",
+    "main.css": "/Dylan-portfolio/static/css/main.c4fd3f55.css",
     "main.js": "/Dylan-portfolio/static/js/main.15397663.js",
     "static/media/Dylan.jpg": "/Dylan-portfolio/static/media/Dylan.fc95acd0ab4bae07f63e.jpg",
     "static/media/weather-app.png": "/Dylan-portfolio/static/media/weather-app.28b600c73ce624dfec76.png",
@@ -8,11 +8,11 @@
     "static/media/99aupairs.png": "/Dylan-portfolio/static/media/99aupairs.8091c215c826a04eefe4.png",
     "static/media/calculator.png": "/Dylan-portfolio/static/media/calculator.934292ea5c1b982d37a0.png",
     "index.html": "/Dylan-portfolio/index.html",
-    "main.d22f8f23.css.map": "/Dylan-portfolio/static/css/main.d22f8f23.css.map",
+    "main.c4fd3f55.css.map": "/Dylan-portfolio/static/css/main.c4fd3f55.css.map",
     "main.15397663.js.map": "/Dylan-portfolio/static/js/main.15397663.js.map"
   },
   "entrypoints": [
-    "static/css/main.d22f8f23.css",
+    "static/css/main.c4fd3f55.css",
     "static/js/main.15397663.js"
   ]
 }
