@@ -12,7 +12,7 @@ const About: React.FC<appState> = ({ pageStatus }) => {
         </h2>
         <div className={styles.content}>
           <div className={pageStatus ? styles.image_dark : styles.image}>
-            <img className={styles.thumbnail} src={thumbnail} />
+            <img className={styles.thumbnail} src={thumbnail} alt="my life" />
             <div className={styles.skillLogo}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
