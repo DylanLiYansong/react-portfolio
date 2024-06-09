@@ -1,0 +1,58 @@
+.skills{
+	min-height: 450px;
+	width: 100%;
+}
+
+.skills_dark {
+	min-height: 450px;
+	width: 100%;
+	background-color: #7f7f7f;
+}
+
+.skillsTitle {
+	padding: 80px 0;
+	letter-spacing: 3px;
+}
+
+.skillsTitle_dark {
+	padding: 80px 0;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.skillIconList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	max-width: 1140px;
+	margin: auto;
+}
+
+/* Cards */
+.skillCard {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100px;
+	height: 84px;
+	margin: 10px 10px 0;
+	background-color: rgba(63, 63, 63, 0.95);
+	border-radius: 8px;
+	color: white;
+}
+
+.imgCardImg {
+	width: 40px;
+	height: 40px;
+	margin: 10px auto 5px;
+}
+
+@media (max-width: 1024px) {
+	.skillCard {
+		margin-top: 10px;
+	}
+	.skillIconList {
+		padding: 0 20px 30px;
+	}
+}

@@ -1,0 +1,30 @@
+.projects{
+	background-color: #e9d5a1;
+	min-height: 650px;
+	width: 100%;
+}
+
+.projects_dark {
+	background-color: #494949;
+	min-height: 650px;
+	width: 100%;
+}
+
+.projectsTitle{
+	padding: 80px 0;
+	letter-spacing: 3px;
+}
+
+.projectsTitle_dark{
+	padding: 80px 0;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.projectList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+}
