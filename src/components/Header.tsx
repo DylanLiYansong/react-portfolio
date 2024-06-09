@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/images/logo.png";
 import styles from "../css/header.module.css";
 import Typing from "react-typing-animation";
 import { Switch } from "antd";
@@ -18,6 +17,7 @@ const Header: React.FC<HeaderProps> = ({ onChangeFunction, pageStatus }) => {
           <a
             href="https://github.com/DylanLiYansong?tab=repositories"
             target="_blank"
+            rel="noopener noreferrer"
             className={styles.githubCorner}
             aria-label="View source on GitHub"
           >
