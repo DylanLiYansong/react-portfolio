@@ -1,6 +1,6 @@
 {
-  "name": "Dylan-portfolio",
-  "homepage": "https://DylanLiYansong.github.io/Dylan-portfolio",
+  "name": "react-portfolio",
+  "homepage": "https://DylanLiYansong.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
