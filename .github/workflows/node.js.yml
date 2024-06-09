@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -27,7 +27,15 @@ jobs:
           cache: "npm"
       - run: npm ci --force
       - run: npm run build --if-present
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: build # The folder the action should deploy.
+      - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://git:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
+          git fetch origin
+          git checkout -b gh-pages
+          git add -f build
+          git commit -m "Deploy to GitHub Pages"
+          git push -f origin gh-pages
