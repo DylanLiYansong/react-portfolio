@@ -42,7 +42,7 @@ const projectList = [
   },
   {
     image: calculator,
-    title: "Serviceability Calculator (In progress)",
+    title: "Serviceability Calculator (CI/CD - In progress)",
     link:
       "https://dylanliyansong.github.io/FreedomLend-home-lending-service-calculator/",
   },
