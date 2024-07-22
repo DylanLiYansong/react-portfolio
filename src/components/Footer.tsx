@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <div className={styles.footer}>
       <div className={styles.footerSocial}>
         <a
-          href="https://github.com/DylanLiYansong?tab=repositories"
+          href="https://github.com/yuntianhe2abc?tab=repositories"
           target="_blank"
           rel="noreferrer"
         >

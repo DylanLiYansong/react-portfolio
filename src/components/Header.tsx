@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ onChangeFunction, pageStatus }) => {
       <div className={styles.head}>
         <div className={styles.github}>
           <a
-            href="https://github.com/DylanLiYansong?tab=repositories"
+            href="https://github.com/yuntianhe2abc?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.githubCorner}
