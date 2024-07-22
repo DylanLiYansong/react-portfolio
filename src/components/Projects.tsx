@@ -5,7 +5,7 @@ import FFP from "../assets/images/FFP.png";
 import aupairs from "../assets/images/99aupairs.png";
 import calculator from "../assets/images/calculator.png";
 import furnitureApp from "../assets/images/furniture-app.jpg";
-import eShop from "../assets/images/e-shop.jpg";
+import eShop from "../assets/images/e-shop.png";
 
 import weather from "../assets/images/weather-app.png";
 import { appState } from "../App";
@@ -26,13 +26,8 @@ const projectList = [
     link: "https://99aupairs.au/",
   },
   {
-    image: aupairs,
-    title: "99Aupairs",
-    link: "https://99aupairs.au/",
-  },
-  {
     image: furnitureApp,
-    title: "Furniture-E-commerce-app (React Native + backend + unit tests)",
+    title: "Furniture-app (React Native, unit tests)",
     link: "https://github.com/yuntianhe2abc/Funiture-app-React-Native",
   },
   {
